@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+  <servlet>
+	<servlet-name>Hello</servlet-name>
+	<servlet-class>Hello</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Hello</servlet-name>
+	<url-pattern>/Hello</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	<servlet-name>p2</servlet-name>
+	<servlet-class>p2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>p2</servlet-name>
+	<url-pattern>/p2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	<servlet-name>P3</servlet-name>
+	<servlet-class>P3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>P3</servlet-name>
+	<url-pattern>/P3</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+	<servlet-name>s</servlet-name>
+	<servlet-class>s</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>s</servlet-name>
+	<url-pattern>/s</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+	<servlet-name>HolisticCount</servlet-name>
+	<servlet-class>HolisticCount</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>HolisticCount</servlet-name>
+	<url-pattern>/HolisticCount</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+	<servlet-name>P5</servlet-name>
+	<servlet-class>P5</servlet-class>
+	<init-param>
+        <param-name>in</param-name>
+        <param-value>10</param-value>
+        </init-param>	
+	</servlet>
+  <servlet-mapping>
+	<servlet-name>P5</servlet-name>
+	<url-pattern>/P5</url-pattern>
+  </servlet-mapping>
+
+
+	<servlet>
+	<servlet-name>P6</servlet-name>
+	<servlet-class>P6</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P6</servlet-name>
+	<url-pattern>/P6</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P7</servlet-name>
+	<servlet-class>P7</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P7</servlet-name>
+	<url-pattern>/P7</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>S8</servlet-name>
+	<servlet-class>S8</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>S8</servlet-name>
+	<url-pattern>/S8</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	<servlet-name>P9</servlet-name>
+	<servlet-class>P9</servlet-class>
+	<init-param>  
+	<param-name>name</param-name>  
+	<param-value>abc</param-value>  
+	</init-param>  
+	<init-param>  
+	<param-name>number</param-name>  
+	<param-value>123</param-value>  
+	</init-param>  
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P9</servlet-name>
+	<url-pattern>/P9</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P10</servlet-name>
+	<servlet-class>P10</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P10</servlet-name>
+	<url-pattern>/P10</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>PassParamHtml</servlet-name>
+	<servlet-class>PassParamHtml</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>PassParamHtml</servlet-name>
+	<url-pattern>/PassParamHtml</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P11</servlet-name>
+	<servlet-class>P11</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P11</servlet-name>
+	<url-pattern>/P11</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>P12</servlet-name>
+	<servlet-class>P12</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P12</servlet-name>
+	<url-pattern>/P12</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+	<servlet-name>P13</servlet-name>
+	<servlet-class>P13</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P13</servlet-name>
+	<url-pattern>/P13</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>Welcome</servlet-name>
+	<servlet-class>Welcome</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Welcome</servlet-name>
+	<url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+	<servlet-name>P14</servlet-name>
+	<servlet-class>P14</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P14</servlet-name>
+	<url-pattern>/P14</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+	<servlet-name>P15</servlet-name>
+	<servlet-class>P15</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P15</servlet-name>
+	<url-pattern>/P15</url-pattern>
+	</servlet-mapping>
+
+	
+</web-app>

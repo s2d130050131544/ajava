@@ -214,6 +214,149 @@
 	<servlet-name>P15</servlet-name>
 	<url-pattern>/P15</url-pattern>
 	</servlet-mapping>
+ 
+	
+	<servlet>
+	<servlet-name>S16</servlet-name>
+	<servlet-class>S16</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>S16</servlet-name>
+	<url-pattern>/S16</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P17</servlet-name>
+	<servlet-class>P17</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P17</servlet-name>
+	<url-pattern>/P17</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+	<servlet-name>P18</servlet-name>
+	<servlet-class>P18</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P18</servlet-name>
+	<url-pattern>/P18</url-pattern>
+	</servlet-mapping>
+
+	
+	
+	<servlet>
+	<servlet-name>S19</servlet-name>
+	<servlet-class>S19</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>S19</servlet-name>
+	<url-pattern>/S19</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>S20</servlet-name>
+	<servlet-class>S20</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>S20</servlet-name>
+	<url-pattern>/S20</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P21</servlet-name>
+	<servlet-class>P21</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P21</servlet-name>
+	<url-pattern>/P21</url-pattern>
+	</servlet-mapping>
+
+
+		<servlet>
+	<servlet-name>P22</servlet-name>
+	<servlet-class>P22</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P22</servlet-name>
+	<url-pattern>/P22</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>S23</servlet-name>
+	<servlet-class>S23</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>S23</servlet-name>
+	<url-pattern>/S23</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P24</servlet-name>
+	<servlet-class>P24</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P24</servlet-name>
+	<url-pattern>/P24</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>NextP24</servlet-name>
+	<servlet-class>NextP24</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>NextP24</servlet-name>
+	<url-pattern>/NextP24</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P25</servlet-name>
+	<servlet-class>P25</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P25</servlet-name>
+	<url-pattern>/P25</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>P26</servlet-name>
+	<servlet-class>P26</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P26</servlet-name>
+	<url-pattern>/P26</url-pattern>
+	</servlet-mapping>
+
+	
+	
+	<servlet>
+	<servlet-name>P27</servlet-name>
+	<servlet-class>P27</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>P27</servlet-name>
+	<url-pattern>/P27</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<filter>  
+	<filter-name>FilterP27</filter-name>  
+	<filter-class>FilterP27</filter-class>  
+	</filter>  
+	<filter-mapping>  
+	<filter-name>FilterP27</filter-name>  
+	<url-pattern>/P27</url-pattern>  
+	</filter-mapping>  
 
 	
 </web-app>
+	
